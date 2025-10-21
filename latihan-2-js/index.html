@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Registrasi</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>Form Registrasi</h2>
+
+  <label for="namaDepan">Nama Depan:</label>
+  <input type="text" id="namaDepan" />
+
+  <label for="namaBelakang">Nama Belakang:</label>
+  <input type="text" id="namaBelakang" />
+
+  <label for="nilaiAngka">Nilai Angka:</label>
+  <input type="number" id="nilaiAngka" min="0" max="100" />
+
+  <button onclick="tampilkanLog()">Submit</button>
+
+  <div class="log" id="outputLog"></div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
